@@ -1,3 +1,35 @@
+# Cellular Battle Prototype
+A prototype written in 2 days for a university group project based on cellular automatas.<br>
+Uses Phaser 3 and a project template by Richard Davey (https://github.com/photonstorm/)<br>
+Repo with template not available anymore (https://github.com/photonstorm/phaser3-typescript-project-template/)
+
+## Game
+ - local 2-Player game
+ - round-based
+### Game rules
+ - Players take turns picking their building material
+   - top-middle box
+   - green -> food, brown -> wood, blue -> metal
+ - Players place their building material
+   - switching type by 1, 2, 3 on keyboard
+ - Cellular automata simulation + resource calculation for both players
+ - Players buy upgrades with resources
+   - center box
+   - "Ready"-button ends buy phase per player
+ - Fight simulation --> winner gets a point
+ - Grids get reset, bought upgrades and remaining resources persist
+ - Next round --> Picking
+
+### Problems
+This is a thrown together prototype!
+ - nearly no planning 
+ - redundant code/copy-paste blocks
+ - performance issue (high cpu usage)
+ - beautiful visual representation :D
+ - no game-balancing at all
+
+
+
 # Phaser 3 TypeScript Project Template
 
 This quick-start project template combines Phaser 3.60 with [TypeScript 5](https://www.typescriptlang.org/) and uses [Rollup](https://rollupjs.org) for bundling.
